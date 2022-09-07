@@ -1,5 +1,5 @@
 import React from "react";
-import './icon.scss'
+import './Icon.scss'
 
 interface IconProps {
     name: string;
@@ -17,4 +17,4 @@ const Icon: React.FC<IconProps> = (props) => {
     )
 }
 
-export {Icon};
+export default Icon;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import {Icon} from "./lib";
+import Icon from "./lib/Icon";
+import Button from './lib/MyButton';
 import React from "react";
 
 const fn: React.MouseEventHandler = (e) => {
@@ -11,6 +12,7 @@ function App() {
         <Wrapper>
             <Icon name='wechat' onClick={fn}/>
             <Icon name='meituan'/>
+            <Button></Button>
         </Wrapper>
     );
 }

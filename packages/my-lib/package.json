@@ -1,5 +1,5 @@
 {
-    "name": "my-lib",
+    "name": "summer-ui-2022",
     "version": "0.0.0",
     "scripts": {
         "dev": "vite",
@@ -44,9 +44,9 @@
         "styled-components": "5.0.0"
     },
     "files": [
-        "dist"
+        "dist/lib/*"
     ],
-    "main": "./dist/my-lib.umd.js",
+    "main": "dist/lib/gulu.js",
     "module": "./dist/my-lib.es.js",
     "types": "./dist/index.d.ts",
     "exports": {

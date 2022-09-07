@@ -1,5 +1,5 @@
 import {ComponentMeta, ComponentStoryObj} from '@storybook/react';
-import {Button} from './MyButton';
+import Button from './MyButton';
 
 const meta: ComponentMeta<typeof Button> = {
     title: 'Design System/MyButton',

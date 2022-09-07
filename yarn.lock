@@ -7869,6 +7869,11 @@ multimatch@^4.0.0:
     arrify "^2.0.1"
     minimatch "^3.0.4"
 
+my-lib@*:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/my-lib/-/my-lib-2.0.1.tgz#f003649717002abbcb0af5b5b938fa3471a2f2d1"
+  integrity sha512-POiKV3mZBd9n8ObetE31Lv0qJUeqDIRxcB095Wq9b0yQStQ8fJGOpoksp804eT7Xc9HItpOdcEP/rMKrTYhtKw==
+
 nan@^2.12.1:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
