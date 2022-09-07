@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import {Icon} from "./lib";
 
 function App() {
     return (
         <Wrapper>
-
+            <Icon name='wechat'/>
+            <Icon name='meituan'/>
         </Wrapper>
     );
 }
