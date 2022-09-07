@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import {Icon} from "./lib";
+import React from "react";
 
-const fn = () => {
-    console.log('hello')
+const fn: React.MouseEventHandler = (e) => {
+    console.log(e.target)
 }
 
 function App() {
