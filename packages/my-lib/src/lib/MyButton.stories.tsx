@@ -1,15 +1,15 @@
-import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
-import MyButton from './MyButton';
+import {ComponentMeta, ComponentStoryObj} from '@storybook/react';
+import {Button} from './MyButton';
 
-const meta: ComponentMeta<typeof MyButton> = {
+const meta: ComponentMeta<typeof Button> = {
     title: 'Design System/MyButton',
-    component: MyButton,
+    component: Button,
 };
 export default meta;
 
-export const Primary: ComponentStoryObj<typeof MyButton> = {
+export const Primary: ComponentStoryObj<typeof Button> = {
     args: {
-        disabled: false,
+       
         children: 'Hello',
     },
 };
