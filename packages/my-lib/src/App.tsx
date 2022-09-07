@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 import {Icon} from "./lib";
 
+const fn = () => {
+    console.log('hello')
+}
+
 function App() {
     return (
         <Wrapper>
-            <Icon name='wechat'/>
+            <Icon name='wechat' onClick={fn}/>
             <Icon name='meituan'/>
         </Wrapper>
     );
